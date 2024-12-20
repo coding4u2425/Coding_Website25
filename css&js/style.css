@@ -905,7 +905,7 @@ span {
   }
 
   .hero-image {
-    width: 340px;
+    width: 315px;
     padding-top: 14px;
   }
 
@@ -1413,6 +1413,252 @@ span {
     padding-bottom: 20px;
     margin-top: 30px;
     margin-left: -69px;
+  }
+
+  .fo-site_item {
+    margin-left: 75px;
+  }
+
+  .fo-site-intro {
+    margin-left: 40px;
+  }
+
+  .nav__item {
+    padding-left: 54px;
+    padding-top: 13px;
+  }
+
+  .social-ico-list {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 412px) {
+  html {
+    font-size: 50%;
+  }
+
+  .web-logo {
+    height: 47px;
+  }
+
+  #navbar {
+    position: static;
+  }
+
+  .menu-list {
+    display: block;
+    font-size: 18px;
+  }
+
+  #menu_icon {
+    position: relative;
+    font-size: 23px;
+    display: block;
+    color: #234edd;
+    list-style-type: none;
+    margin-top: 11px;
+    right: 51%;
+  }
+
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.7;
+  }
+
+  #navlist-bar {
+    position: absolute;
+    top: 103%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: white;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
+  .web-nav {
+    box-shadow: 0px 3px 9px gainsboro;
+  }
+
+  .container-right {
+    display: flex;
+    position: relative;
+    right: 2%;
+  }
+
+  .container-right a {
+    font-size: 14px;
+  }
+
+  .loglink {
+    margin-top: 5px;
+  }
+
+  .searchBox {
+    padding-top: 6px;
+  }
+
+  .searchBox .search-field {
+    height: 50px;
+    width: 227px;
+  }
+
+  .searchToggle.active ~ .search-field {
+    margin-right: 102px;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    margin-top: 14px;
+  }
+
+  .left-container {
+    flex-wrap: wrap;
+  }
+
+  .project-heading {
+    font-size: 30px;
+    text-align: center;
+    margin-left: -76px;
+  }
+
+  .left-container h3 {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  .h-btn {
+    font-size: 18px;
+    padding: 14px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .project-btn {
+    font-size: 18px;
+    padding: 14px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 75px;
+  }
+
+  .center-text {
+    margin-top: 40px;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .projects-image {
+    width: 381px;
+    margin-top: 1rem;
+    margin-left: -53px;
+  }
+
+  .right-container h1 {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  .pro-line {
+    font-size: 20px;
+    text-align: center;
+    margin-left: -32px;
+    margin-right: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pro-description {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 38px;
+  }
+
+  .pro-btn {
+    font-size: 20px;
+    padding: 14px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 70px;
+  }
+
+  .experiments-container {
+    flex-direction: column;
+  }
+
+  .left-container h2 {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  .exp-description {
+    font-size: 2.6rem;
+    text-align: center;
+    margin-left: 43px;
+  }
+
+  .experiments-image {
+    width: 90vw;
+    margin-top: 4rem;
+  }
+
+  .experiments-btn {
+    font-size: 20px;
+    padding: 14px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .ebook-image {
+    width: 90%;
+    padding-top: 35px;
+    margin-left: -22px;
+  }
+
+  .eb-right-container {
+    margin-right: 0px;
+  }
+
+  .eb-right-container h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #234edd;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: -69px;
+  }
+
+  .footer {
+    padding: 30px 30px 20px 0px;
+    font-size: 14px;
+    color: white;
+    background-color: #021552;
   }
 
   .fo-site_item {
