@@ -1400,6 +1400,7 @@ code {
 
   .page-up-btn {
     margin-left: 4%;
+    display: none;
   }
 
   .up-btn {
@@ -1409,6 +1410,17 @@ code {
   .up-right-btn {
     margin-left: 54%;
   }
+
+  .page-text {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .page-text h1 {
+    font-size: 30px;
+    line-height: 5.5rem;
+    margin: 10px 0 15px 10px;
+}
 
   .page-content {
     margin-left: 4%;
