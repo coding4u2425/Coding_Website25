@@ -1654,6 +1654,38 @@ span {
     margin-left: -69px;
   }
 
+  .terms-heading h2 {
+    font-size: 40px;
+    color: #234edd;
+    margin-top: 29px;
+    padding-left: 3.1rem;
+    margin-bottom: 20px;
+  }
+
+  .terms-content h3 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 12px;
+    padding-left: 26px;
+    margin-right: 15px;
+  }
+
+  .terms-content p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 26px;
+    margin-bottom: 16px;
+    margin-right: 15px;
+  }
+
+  .terms-content li {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    padding-left: 26px;
+    margin-right: 15px;
+  }
+
   .footer {
     padding: 30px 30px 20px 0px;
     font-size: 14px;
