@@ -561,11 +561,6 @@ button:hover {
     position: relative;
     left: 4%;
   }
-
-  /* .tab_mob_image {
-    position: relative;
-    left: 7%;
-  } */
 }
 
 @media (max-width: 819.20px) {
@@ -645,11 +640,6 @@ button:hover {
   .center-text h2 {
     margin-top: 40px;
   }
-
-  /* .tab_mob_image {
-    position: relative;
-    left: 3%;
-  } */
 
   .footer {
     margin-top: 0%;
@@ -749,8 +739,6 @@ button:hover {
 
   .tab_mob_image {
     width: 650px;
-    /* position: relative;
-    left: 0%; */
   }
 
   .footer {
@@ -825,6 +813,13 @@ button:hover {
 
   .web-nav {
     box-shadow: 0px 3px 9px gainsboro;
+  }
+
+  .ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 3px 1em 3px 0.4em;
+    font-size: 13px;
+    font-weight: 600;
   }
 
   .container-right {
