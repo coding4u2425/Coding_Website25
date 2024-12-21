@@ -1214,6 +1214,13 @@ button:hover {
     margin-right: 91px;
   }
 
+  .footer {
+    padding: 30px 30px 20px 0px;
+    font-size: 14px;
+    color: white;
+    background-color: #021552;
+  }
+
   .fo-site_item {
     margin-left: 75px;
   }
