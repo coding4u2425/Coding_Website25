@@ -1394,6 +1394,13 @@ code {
     right: 51%;
   }
 
+  .ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 3px 1em 3px 0.4em;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
   #inside-menu {
     display: none;
   }
