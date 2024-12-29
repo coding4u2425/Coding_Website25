@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy</title>
+    <link rel="shortcut icon" href="/media/web-icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css&js/style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  </head>
+
+  <body>
+    <div class="web-nav">
+      <div class="logo">
+        <a href="/">
+          <img src="/media/logo.png" alt="website logo" class="web-logo" />
+        </a>
+      </div>
+      <nav id="navbar">
+        <ul id="navlist-bar">
+          <li><a href="/">Home</a></li>
+          <li><a href="/main/tutorials.html">Tutorials</a></li>
+          <li><a href="/projects/projects_page.html">Projects</a></li>
+          <li><a href="/experiments/experiments.html">Experiments</a></li>
+          <li><a href="/main/notes.html">Notes</a></li>
+          <li><a href="/main/ebooks.html">Ebooks</a></li>
+        </ul>
+      </nav>
+
+      <div class="container-right">
+        <div class="searchBox">
+          <div class="searchToggle">
+            <i class="bx bx-x cancel" style="color: #234edd"></i>
+            <i class="bx bx-search search" style="color: #234edd"></i>
+          </div>
+
+          <div class="search-field">
+            <input type="text" id="input-box" placeholder="Search..." />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+
+        <div class="loglink">
+          <button id="btn-login" hidden="true" onclick="login()">Login</button>
+          <button id="btn-logout" hidden="true" onclick="logout()">
+            Log out
+          </button>
+        </div>
+
+        <ul>
+          <li class="menu-list" onclick="myFunction()">
+            <i class="fa-solid fa-bars" id="menu_icon"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="second-nav">
+      <nav>
+        <ul>
+          <li class="sec-nav-list">
+            <a href="/python_tutorial/python_intro.html" class="tuts"
+              ><i class="fa-brands fa-python fa-lg"></i> PYTHON</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/c_tutorial/c_introduction.html" class="tuts"
+              ><i class="devicon-c-plain"></i> C</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/java_tutorial/java-intro.html" class="tuts"
+              ><i class="fa-brands fa-java fa-lg"></i> JAVA</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/html_tutorial/html-intro.html" class="tuts"
+              ><i class="fa-brands fa-html5 fa-lg"></i> HTML</a
+            >
+          </li>
+          <li>
+            <a href="/css_tutorial/css-intro.html" class="tuts"
+              ><i class="fa-brands fa-css3-alt fa-lg"></i> CSS</a
+            >
+          </li>
+          <li>
+            <a href="/js_tutorial/js-intro.html" class="tuts"
+              ><i class="fa-brands fa-js fa-lg"></i> JS</a
+            >
+          </li>
+          <!-- <li>
+            <a href="" class="tuts"
+              ><i class="devicon-cplusplus-plain cplusplus_icon"></i> C++</a
+            >
+          </li> -->
+        </ul>
+      </nav>
+    </div>
+
+    <div class="terms-heading">
+      <h2>Privacy Policy</h2>
+    </div>
+
+    <div class="terms-content">
+      <p>
+        At Tutorials4Coding, we respect your privacy and are dedicated to
+        keeping your personal data safe. This privacy policy describes how we
+        collect, utilize, and protect your information when you visit our
+        website. You accept the terms of this Privacy Policy by visiting or
+        using our website.
+      </p>
+
+      <h3>1. Information We Collect</h3>
+
+      <p>
+        We collect data in order to deliver and improve our services, maintain
+        site functionality, and optimize your learning experience. The types of
+        information we collect include:
+      </p>
+
+      <h4>a. Personal Data</h4>
+
+      <li>Name</li>
+      <li>Email address</li>
+      <li>Contact details</li>
+
+      <h4>b. Non-Personal Data</h4>
+
+      <li>Device information</li>
+      <li>IP address</li>
+      <li>Pages visited and time spent on our site</li>
+
+      <h4>c. Cookies and Tracking Technologies</h4>
+
+      <p>
+        We use cookies and other technology to improve your experience, analyze
+        site performance, and understand the behavior of users.
+      </p>
+
+      <h3>2. How We Use Your Information</h3>
+
+      <p>We use the collected information for the following purposes:</p>
+
+      <li>To personalize your learning experience</li>
+      <li>To communicate with you, including updates and promotions</li>
+      <li>To process payments for premium features or services</li>
+      <li>To maintain the security and functionality of our website</li>
+      <li>Send you emails</li>
+      <li>
+        Personalize ads based on your preferences, and send you marketing and
+        promotional content via phone calls and email.
+      </li>
+
+      <h3>3. Data Security</h3>
+
+      <p>
+        We use strong security protocols to safeguard against unwanted access,
+        modification, or destruction of your data.
+      </p>
+
+      <li>SSL encryption for data transmission</li>
+      <li>Regular security audits</li>
+      <li>Restricted access to personal data</li>
+
+      <p>
+        But remember that there is no totally safe way to store data
+        electronically or transmit data over the internet. Despite our best
+        efforts, we are unable to ensure the complete security of your personal
+        information.
+      </p>
+
+      <h3>4. Third-Party Links</h3>
+
+      <p>
+        There may be connections to external websites on our website. The
+        privacy policies of these websites are not under our control. Before
+        sending any information, we advise you to review their privacy policies.
+      </p>
+
+      <h3>5. Children's Privacy</h3>
+
+      <p>
+        Our website is not designed for kids under the age of 13. We do not
+        intentionally gather personal information from kids. If we find that we
+        have gathered data from a kid under 13, we will immediately remove it.
+      </p>
+
+      <h3>6. Changes to This Privacy Policy</h3>
+
+      <p>
+        We may update our Privacy Policy from time to time. Any modifications
+        will be published on this page, along with an updated effective date.
+        The continued use of our website following such revisions signifies
+        acceptance of the revised policy.
+      </p>
+
+      <h3>7. Contact Us</h3>
+
+      <p>
+        If you have questions or concerns about this Privacy Policy, please
+        contact us.
+      </p>
+    </div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">🡅</button>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="fo-site_item">
+          <a href="/">
+            <img src="/media/logo.png" alt="website logo" class="web-logo" />
+          </a>
+          <p class="fo-site-intro">Learn Coding Easily</p>
+
+          <ul class="social-ico-list">
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.facebook.com/tutorials4coding"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.instagram.com/tutorials4coding/"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.linkedin.com/company/tutorials4coding/about/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://github.com/tutorials4coding"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Tutorials</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/python_tutorial/python_intro.html">Python Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/c_tutorial/c_introduction.html">C Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/java_tutorial/java-intro.html">Java Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/html_tutorial/html-intro.html">HTML Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/css_tutorial/css-intro.html">CSS Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/js_tutorial/js-intro.html">JavaScript Tutorial</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Projects</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/projects/python_projects.html">Python Projects</a>
+            </li>
+
+            <li>
+              <a href="/projects/c_projects.html">C Projects</a>
+            </li>
+
+            <!-- <li>
+              <a href="/projects/java_projects.html">Java Projects</a>
+            </li> -->
+
+            <li>
+              <a href="/projects/html_css_projects.html">HTML & CSS Projects</a>
+            </li>
+
+            <li>
+              <a href="/projects/js_projects.html">JavaScript Projects</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Site</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/main/about_us.html">About Us</a>
+            </li>
+
+            <li>
+              <a href="/main/contact.html">Contact</a>
+            </li>
+
+            <li>
+              <a href="/main/html&css_editor.html">Editor</a>
+            </li>
+
+            <li>
+              <a href="/main/privacy_policy.html">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="/main/terms_&_condition.html"
+                >Terms & <br />
+                Conditions</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2024 Tutorials4Coding. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/css&js/page.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="/css&js/app.js"></script>
+  </body>
+</html>
