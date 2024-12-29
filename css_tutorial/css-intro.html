@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Introduction</title>
+    <link rel="shortcut icon" href="/media/web-icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css&js/page.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  </head>
+
+  <body>
+    <div class="web-nav">
+      <div class="logo">
+        <a href="/">
+          <img src="/media/logo.png" alt="website logo" class="web-logo" />
+        </a>
+      </div>
+      <nav id="navbar">
+        <ul id="navlist-bar">
+          <li><a href="/">Home</a></li>
+          <li><a href="/main/tutorials.html">Tutorials</a></li>
+          <li><a href="/projects/projects_page.html">Projects</a></li>
+          <li><a href="/experiments/experiments.html">Experiments</a></li>
+          <li><a href="/main/notes.html">Notes</a></li>
+          <li><a href="/main/ebooks.html">Ebooks</a></li>
+        </ul>
+      </nav>
+
+      <div class="container-right">
+        <div class="searchBox">
+          <div class="searchToggle">
+            <i class="bx bx-x cancel" style="color: #234edd"></i>
+            <i class="bx bx-search search" style="color: #234edd"></i>
+          </div>
+
+          <div class="search-field">
+            <input
+              type="text"
+              id="input-box"
+              placeholder="Search..."
+            />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+
+        <div class="loglink">
+          <button id="btn-login" hidden="true" onclick="login()">Login</button>
+          <button id="btn-logout" hidden="true" onclick="logout()">
+            Log out
+          </button>
+        </div>
+
+        <ul>
+          <li class="menu-list" onclick="myFunction()">
+            <i class="fa-solid fa-bars" id="menu_icon"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="second-nav">
+      <nav>
+        <ul>
+          <li class="sec-nav-list">
+            <a href="/python_tutorial/python_intro.html" class="tuts"
+              ><i class="fa-brands fa-python fa-lg"></i> PYTHON</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/c_tutorial/c_introduction.html" class="tuts"
+              ><i class="devicon-c-plain"></i> C</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/java_tutorial/java-intro.html" class="tuts"
+              ><i class="fa-brands fa-java fa-lg"></i> JAVA</a
+            >
+          </li>
+          <li class="sec-nav-list">
+            <a href="/html_tutorial/html-intro.html" class="tuts"
+              ><i class="fa-brands fa-html5 fa-lg"></i> HTML</a
+            >
+          </li>
+          <li>
+            <a href="/css_tutorial/css-intro.html" class="tuts"
+              ><i class="fa-brands fa-css3-alt fa-lg"></i> CSS</a
+            >
+          </li>
+          <li>
+            <a href="/js_tutorial/js-intro.html" class="tuts"
+              ><i class="fa-brands fa-js fa-lg"></i> JS</a
+            >
+          </li>
+          <!-- <li>
+            <a href="" class="tuts"
+              ><i class="devicon-cplusplus-plain cplusplus_icon"></i> C++</a
+            >
+          </li> -->
+        </ul>
+      </nav>
+    </div>
+
+    <div class="side-menu" id="sidenav">
+      <div id="leftmenu">
+        <div id="inside-menu">
+          <img src="/media/tut5.png" class="css-logo" alt="CSS logo" />
+          <h2 class="left"><span class="left_h2">CSS</span> Tutorial</h2>
+          <a target="_top" href="/css_tutorial/css-intro.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Introduction</a
+          >
+          <a target="_top" href="/css_tutorial/css_syntax.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Syntax</a
+          >
+          <a target="_top" href="/css_tutorial/css_adding.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Adding</a
+          >
+          <a target="_top" href="/css_tutorial/css_comments.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Comments</a
+          >
+          <a target="_top" href="/css_tutorial/css_selecters.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Selectors</a
+          >
+          <a target="_top" href="/css_tutorial/css_colors.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Colors</a
+          >
+          <a target="_top" href="/css_tutorial/css_backgrounds.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Backgrounds</a
+          >
+          <a target="_top" href="/css_tutorial/css_borders.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Borders</a
+          >
+          <a target="_top" href="/css_tutorial/css_fonts.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Fonts</a
+          >
+          <a target="_top" href="/css_tutorial/css_padding.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Padding</a
+          >
+          <a target="_top" href="/css_tutorial/css_margin.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Margin</a
+          >
+          <a target="_top" href="/css_tutorial/css_buttons.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Buttons</a
+          >
+          <a target="_top" href="/css_tutorial/css_float.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Float</a
+          >
+          <a target="_top" href="/css_tutorial/css_position.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Position</a
+          >
+          <a target="_top" href="/css_tutorial/css_z-index.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Z-index</a
+          >
+          <a target="_top" href="/css_tutorial/css_forms.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Forms</a
+          >
+          <a target="_top" href="/css_tutorial/css_display.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Display</a
+          >
+          <a target="_top" href="/css_tutorial/css_flexbox.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS FlexBox</a
+          >
+          <a target="_top" href="/css_tutorial/css_grid.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Grid</a
+          >
+          <a target="_top" href="/css_tutorial/css_media_queries.html"
+            ><i class="fa-solid fa-book-open-reader"></i> CSS Media Queries</a
+          >
+          <!-- <a target="_top" href="">C Recursion</a>
+          <a target="_top" href="c_structs.php">C Structures</a>
+          <a target="_top" href="c_files.php">C Files</a> -->
+          <br />
+        </div>
+      </div>
+    </div>
+    
+    <div class="page-up-btn">
+      <div class="up-btn">
+        <a href="" class="up-left-btn">🡸 Previous</a>
+        <a href="/css_tutorial/css_syntax.html" class="up-right-btn">Next 🡺</a>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="page-text">
+        <h1>CSS Introduction</h1>
+        <h2>What is CSS?</h2>
+        <p>
+          CSS stands for Cascading Style Sheets. It is a style sheet language
+          that describes the display of an HTML document, including colors,
+          layouts, and fonts.
+        </p>
+
+        <h3>Without CSS</h3>
+        <img src="/media/without_css.png" alt="" class="content-image" />
+        <h3>With CSS</h3>
+        <img src="/media/with_css.png" alt="" class="content-image" />
+
+        <h2>Why use CSS?</h2>
+        <p>
+          CSS is used to style HTML components, which makes websites more
+          visually appealing and user-friendly.
+        </p>
+
+        <h2>How CSS Works</h2>
+        <p>CSS works by selecting HTML components and adding styles to them.</p>
+
+        <div class="code-container">
+          <code>
+            <span class="selector">selector</span>
+            <span class="punctuation">{</span> <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="property">property</span
+            ><span class="punctuation">:</span> value<span class="punctuation"
+              >;</span
+            >
+            <br />
+            <span class="punctuation">}</span>
+          </code>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-down-btn">
+      <div class="down-btn">
+        <a href="" class="down-left-btn">🡸 Previous</a>
+        <a href="/css_tutorial/css_syntax.html" class="down-right-btn"
+          >Next 🡺</a
+        >
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">🡅</button>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="fo-site_item">
+          <a href="/">
+            <img src="/media/logo.png" alt="website logo" class="web-logo" />
+          </a>
+          <p class="fo-site-intro">Learn Coding Easily</p>
+
+          <ul class="social-ico-list">
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.facebook.com/tutorials4coding"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.instagram.com/tutorials4coding/"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://www.linkedin.com/company/tutorials4coding/about/"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="social-links"
+                target="_blank"
+                href="https://github.com/tutorials4coding"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Tutorials</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/python_tutorial/python_intro.html">Python Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/c_tutorial/c_introduction.html">C Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/java_tutorial/java-intro.html">Java Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/html_tutorial/html-intro.html">HTML Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/css_tutorial/css-intro.html">CSS Tutorial</a>
+            </li>
+
+            <li>
+              <a href="/js_tutorial/js-intro.html">JavaScript Tutorial</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Projects</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/projects/python_projects.html">Python Projects</a>
+            </li>
+
+            <li>
+              <a href="/projects/c_projects.html">C Projects</a>
+            </li>
+
+            <!-- <li>
+              <a href="/projects/java_projects.html">Java Projects</a>
+            </li> -->
+
+            <li>
+              <a href="/projects/html_css_projects.html">HTML & CSS Projects</a>
+            </li>
+
+            <li>
+              <a href="/projects/js_projects.html">JavaScript Projects</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Site</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="/main/about_us.html">About Us</a>
+            </li>
+
+            <li>
+              <a href="/main/contact.html">Contact</a>
+            </li>
+
+            <li>
+              <a href="/main/html&css_editor.html">Editor</a>
+            </li>
+
+            <li>
+              <a href="/main/privacy_policy.html">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="/main/terms_&_condition.html"
+                >Terms & <br />
+                Conditions</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2024 Tutorials4Coding. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="/css&js/page.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="/css&js/app.js"></script>
+  </body>
+</html>
