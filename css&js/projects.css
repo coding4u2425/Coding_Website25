@@ -1050,3 +1050,9 @@ code {
     margin-left: 40px;
   }
 }
+
+@media (max-width: 412px) {
+  code {
+    font-size: 2rem;
+  }
+}
