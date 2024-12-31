@@ -1005,6 +1005,27 @@ code {
     text-align: justify;
   }
 
+  .tuts-btn1 {
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #234edd;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  .tuts-btn2 {
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #234edd;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+
   .footer {
     padding: 30px 30px 20px 0px;
     font-size: 14px;
