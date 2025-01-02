@@ -629,7 +629,13 @@ code {
 
   .page-content {
     margin-left: 9%;
-    margin-right: 4%;
+    margin-right: 2%;
+  }
+
+  .content-image {
+    width: 1000px;
+    padding: 10px 20px;
+    cursor: pointer;
   }
 
   .page-down-btn {
@@ -702,6 +708,7 @@ code {
   .content-image {
     width: 1000px;
     padding: 10px 20px;
+    cursor: pointer;
   }
 
   .up-right-btn {
@@ -780,6 +787,7 @@ code {
   .content-image {
     width: 1000px;
     padding: 10px 20px;
+    cursor: pointer;
   }
 
   .java-logo {
