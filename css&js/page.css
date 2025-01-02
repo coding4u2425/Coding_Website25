@@ -618,6 +618,27 @@ code {
   .searchToggle.active ~ .search-field {
     margin-right: 88px;
   }
+
+  .page-up-btn {
+    margin-left: 9%;
+  }
+
+  .up-right-btn {
+    margin-left: 91%;
+  }
+
+  .page-content {
+    margin-left: 9%;
+    margin-right: 4%;
+  }
+
+  .page-down-btn {
+    margin-left: 9%;
+  }
+
+  .down-right-btn {
+    margin-left: 91%;
+  }
 }
 
 @media (max-width: 2401px) {
@@ -716,9 +737,17 @@ code {
     margin-left: 16%;
   }
 
+  .up-right-btn {
+    margin-left: 89%;
+  }
+
   .page-down-btn {
-    margin-left: 17%;
+    margin-left: 16%;
     margin-top: 0px;
+  }
+
+  .down-right-btn {
+    margin-left: 89%;
   }
 }
 
@@ -828,9 +857,17 @@ code {
     margin-left: 19%;
   }
 
+  .up-right-btn {
+    margin-left: 86%;
+  }
+
   .page-down-btn {
     margin-left: 19%;
     margin-top: 0px;
+  }
+
+  .down-right-btn {
+    margin-left: 86%;
   }
 }
 
@@ -888,7 +925,7 @@ code {
   }
 
   .up-right-btn {
-    margin-left: 83%;
+    margin-left: 84%;
   }
 
   .page-down-btn {
@@ -897,7 +934,7 @@ code {
   }
 
   .down-right-btn {
-    margin-left: 83%;
+    margin-left: 84%;
   }
 
   .footer {
@@ -1069,6 +1106,73 @@ code {
   }
 
   .page-up-btn {
+    margin-left: 18%;
+  }
+
+  .up-right-btn {
+    margin-left: 81%;
+  }
+
+  .page-content {
+    margin-left: 18%;
+    margin-right: 4%;
+  }
+
+  .page-down-btn {
+    margin-left: 18%;
+    margin-top: 0px;
+  }
+
+  .down-right-btn {
+    margin-left: 81%;
+  }
+
+  .footer {
+    padding-left: 20%;
+  }
+
+  .nav__item {
+    padding-left: 60px;
+    padding-top: 13px;
+  }
+}
+
+@media (max-width: 1137.78px) {
+  #navbar {
+    position: relative;
+    left: 8%;
+  }
+
+  .page-up-btn {
+    margin-left: 20%;
+  }
+
+  .up-right-btn {
+    margin-left: 78%;
+  }
+
+  .page-content {
+    margin-left: 20%;
+    margin-right: 4%;
+  }
+
+  .page-down-btn {
+    margin-left: 20%;
+    margin-top: 0px;
+  }
+
+  .down-right-btn {
+    margin-left: 78%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #navbar {
+    position: relative;
+    left: 4%;
+  }
+
+  .page-up-btn {
     margin-left: 22%;
   }
 
@@ -1087,30 +1191,7 @@ code {
   }
 
   .down-right-btn {
-    margin-left: 74%;
-  }
-
-  .footer {
-    padding-left: 20%;
-  }
-
-  .nav__item {
-    padding-left: 60px;
-    padding-top: 13px;
-  }
-}
-
-@media (max-width: 1137.78px) {
-  #navbar {
-    position: relative;
-    left: 8%;
-  }
-}
-
-@media (max-width: 1024px) {
-  #navbar {
-    position: relative;
-    left: 4%;
+    margin-left: 75%;
   }
 }
 
