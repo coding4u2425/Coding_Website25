@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Comments</title>
     <link rel="shortcut icon" href="/media/web-icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/css&js/page.css" />
-    <title>Python Introduction</title>
     <link
       rel="stylesheet"
       href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
@@ -58,7 +58,6 @@
               type="text"
               id="input-box"
               placeholder="Search..."
-              autocomplete="off"
             />
             <i class="bx bx-search"></i>
           </div>
@@ -124,129 +123,187 @@
     <div class="side-menu" id="sidenav">
       <div id="leftmenu">
         <div id="inside-menu">
-          <img src="/media/tut1.png" class="py-logo" alt="Python logo" />
-          <h2 class="left"><span class="left_h2">Python</span> Tutorial</h2>
-          <a target="_top" href="/python_tutorial/python_intro.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Intro</a
+          <img src="/media/tut3.png" class="java-logo" alt="" />
+          <h2 class="left"><span class="left_h2">JAVA</span> Tutorial</h2>
+          <a target="_top" href="/java_tutorial/java-intro.html"
+            ><i class="fa-solid fa-book-open-reader"></i> JAVA Introduction</a
           >
-          <a target="_top" href="/python_tutorial/python_getstarted.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Get Started</a
+          <a target="_top" href="/java_tutorial/java_installation.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java Installation</a
           >
-          <!-- <a target="_top" href="/python_tutorial/"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Syntax</a
+          <a target="_top" href="/java_tutorial/java_jvm_jre_jdk.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java JVM, JRE, JDK</a
+          >
+          <a target="_top" href="/java_tutorial/java_comments.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java Comments</a
+          >
+          <a target="_top" href="/java_tutorial/java_variables.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java Variables</a
+          >
+          <a target="_top" href="/java_tutorial/java_data_types.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Data Types</a
+          >
+          <a target="_top" href="/java_tutorial/java_operators.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Operators</a
+          >
+          <a target="_top" href="/java_tutorial/java_string.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Strings</a
+          >
+          <a target="_top" href="/java_tutorial/java_if_else.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java If...Else</a
+          >
+          <a target="_top" href="/java_tutorial/java_switch.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Switch</a
+          >
+          <a target="_top" href="/java_tutorial/java_for_loop.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java For Loop</a
+          >
+          <a target="_top" href="/java_tutorial/java_while_loop.html">
+            <i class="fa-solid fa-book-open-reader"></i> Java While Loop</a
+          >
+          <a target="_top" href="/java_tutorial/java_do_while_loop.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Do...While
+            Loop</a
+          >
+          <a target="_top" href="/java_tutorial/java_break_continue.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Break/Continue</a
+          >
+          <a target="_top" href="/java_tutorial/java_array.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Arrays</a
+          >
+          <a target="_top" href="/java_tutorial/java_recursion.html"
+            ><i class="fa-solid fa-book-open-reader"></i> Java Recursion</a
+          >
+          <!-- <a target="_top" href="c_functions.php"
+            ><i class="fa-solid fa-book-open-reader"></i> C Functions</a
+          >
+          <a target="_top" href=""
+            ><i class="fa-solid fa-book-open-reader"></i> C Recursion</a
+          >
+          <a target="_top" href="c_structs.php"
+            ><i class="fa-solid fa-book-open-reader"></i> C Structures</a
+          >
+          <a target="_top" href="c_files.php"
+            ><i class="fa-solid fa-book-open-reader"></i> C Files</a
           > -->
-          <a target="_top" href="/python_tutorial/python_comments.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Comments</a
-          >
-          <a target="_top" href="/python_tutorial/python_variables.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python variables</a
-          >
-          <a target="_top" href="/python_tutorial/python_data_types.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Data Types</a
-          >
-          <a target="_top" href="/python_tutorial/python_numbers.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Numbers</a
-          >
-          <a target="_top" href="/python_tutorial/python_operators.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Operators</a
-          >
-          <a target="_top" href="/python_tutorial/python_strings.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Strings</a
-          >
-          <a target="_top" href="/python_tutorial/python_list.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Lists</a
-          >
-          <a target="_top" href="/python_tutorial/python_tuples.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Tuples</a
-          >
-          <a target="_top" href="/python_tutorial/python_sets.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Sets</a
-          >
-          <a target="_top" href="/python_tutorial/python_dictionaries.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Dicts</a
-          >
-          <a target="_top" href="/python_tutorial/python_if_else.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python If...Else</a
-          >
-          <a target="_top" href="/python_tutorial/python_for_loop.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python for Loop</a
-          >
-          <a target="_top" href="/python_tutorial/python_while_loop.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python while Loop</a
-          >
-          <a target="_top" href="/python_tutorial/python_functions.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Functions</a
-          >
-          <a target="_top" href="/python_tutorial/python_recursion.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Recursion</a
-          >
-          <!-- <a target="_top" href="/python_tutorial/"
-            ><i class="fa-solid fa-book-open-reader"></i> Python Modules</a
-          > -->
-          <a target="_top" href="/python_tutorial/python_oops.html"
-            ><i class="fa-solid fa-book-open-reader"></i> Python OOPS</a
-          >
           <br />
         </div>
       </div>
     </div>
     <div class="page-up-btn">
       <div class="up-btn">
-        <a href="" class="up-left-btn"><i class="fa-solid fa-angles-right fa-rotate-180"></i> Previous</a>
-        <a href="/python_tutorial/python_getstarted.html" class="up-right-btn"
-          >Next <i class="fa-solid fa-angles-right fa-sm"></i
-            ></a
-        >
+        <a href="/java_tutorial/java_jvm_jre_jdk.html" class="up-left-btn"><i class="fa-solid fa-angles-right fa-rotate-180"></i> Previous</a>
+        <a href="/java_tutorial/java_variables.html" class="up-right-btn">Next <i class="fa-solid fa-angles-right fa-sm"></i
+          ></a>
       </div>
     </div>
 
     <div class="page-content">
       <div class="page-text">
-        <h1>Python Introduction</h1>
-        <h2>What is Python?</h2>
+        <h1>Java Comments</h1>
         <p>
-          Python is a dynamically typed, General Purpose Programming Language
-          that supports an object-oriented programming approach as well as a
-          functional programming approach.
-          <br />
-          Python is also an interpreted and high-level programming language.
-          <br />
-          It was created by Guido Van Rossum in 1989.
+          Comments are used In Java to make the code more readable and
+          understandable for developers.
         </p>
-        <h2>Python Features:</h2>
+
+        <h2>Single Line Comments</h2>
         <ul>
-          <li>Python is simple and easy to understand.</li>
+          <li>Single-line comments start with two forward slashes (//).</li>
           <li>
-            It is Interpreted and platform-independent which makes debugging
-            very easy.
-          </li>
-          <li>Python is an open-source programming language.</li>
-        </ul>
-        <h2>What is Python used for</h2>
-        <ul class="un_list">
-          <li>
-            Python is a programming language that is used in AI and machine
-            learning to emulate human behavior and learn from prior data without
-            using hard coding.
-          </li>
-          <li>Python is used to create web applications.</li>
-          <li>It is frequently used for data analysis and manipulation.</li>
-          <li>
-            It is sometimes used in game development, often with the help of
-            libraries like Pygame.
+            Any content between // and the end of the line is ignored by the
+            Java.
           </li>
         </ul>
-        
+
+        <p><b>Example:</b></p>
+        <div class="code-container">
+          <code>
+            <span class="keyword">public class</span>
+            <span class="function">Main</span>
+            <span class="punctuation">{</span><br />
+
+            &nbsp;&nbsp;<span class="keyword">public static void</span>
+            <span class="function">main</span
+            ><span class="punctuation"
+              >(<span class="function">String</span
+              ><span class="punctuation">[]</span> args)</span
+            >
+            <span class="punctuation">{</span><br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comments"
+              >// This is a single line comment</span
+            ><br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="function">System</span
+            ><span class="punctuation">.</span>out<span class="punctuation"
+              >.</span
+            ><span class="function">println</span
+            ><span class="punctuation"
+              >(<span class="string">"Hello World!!"</span>)</span
+            ><span class="punctuation">;</span><br />
+
+            &nbsp;&nbsp;<span class="punctuation">}</span><br />
+            <span class="punctuation">}</span>
+          </code>
+        </div>
+
+        <p><b>Output</b></p>
+        <div class="code-container">
+          <code>Hello World!!</code>
+        </div>
+
+        <h2>Multi-line comments</h2>
+        <ul>
+          <li>Multi-line comments start with /* and ends with */.</li>
+          <li>Any content between /* and */ will be ignored by the Java.</li>
+        </ul>
+
+        <p><b>Example:</b></p>
+        <div class="code-container">
+          <code>
+            <span class="keyword">public class</span>
+            <span class="function">Main</span>
+            <span class="punctuation">{</span><br />
+
+            &nbsp;&nbsp;<span class="keyword">public static void</span>
+            <span class="function">main</span
+            ><span class="punctuation"
+              >(<span class="function">String</span
+              ><span class="punctuation">[]</span> args)</span
+            >
+            <span class="punctuation">{</span><br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comments"
+              >/* This is a<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;multi line<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;comment */</span
+            ><br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="function">System</span
+            ><span class="punctuation">.</span>out<span class="punctuation"
+              >.</span
+            ><span class="function">println</span
+            ><span class="punctuation"
+              >(<span class="string">"Hello World!!"</span>)</span
+            ><span class="punctuation">;</span><br />
+
+            &nbsp;&nbsp;<span class="punctuation">}</span><br />
+            <span class="punctuation">}</span>
+          </code>
+        </div>
+
+        <p><b>Output</b></p>
+        <div class="code-container">
+          <code>Hello World!!</code>
+        </div>
       </div>
     </div>
 
     <div class="page-down-btn">
       <div class="down-btn">
-        <a href="" class="down-left-btn"><i class="fa-solid fa-angles-right fa-rotate-180"></i> Previous</a>
-        <a href="/python_tutorial/python_getstarted.html" class="down-right-btn"
-          >Next <i class="fa-solid fa-angles-right fa-sm"></i
-            ></a
-        >
+        <a href="/java_tutorial/java_jvm_jre_jdk.html" class="down-left-btn"><i class="fa-solid fa-angles-right fa-rotate-180"></i> Previous</a>
+        <a href="/java_tutorial/java_variables.html" class="down-right-btn">Next <i class="fa-solid fa-angles-right fa-sm"></i
+          ></a>
       </div>
     </div>
 
