@@ -679,6 +679,14 @@ code {
   .down-right-btn {
     margin-left: 91%;
   }
+
+  .footer {
+    padding: 30px 375px 20px 553px;
+  }
+
+  .nav__item {
+    padding-left: 86px;
+  }
 }
 
 @media (max-width: 2401px) {
@@ -765,7 +773,7 @@ code {
   font-size: 18px;
   line-height: 1.5;
   margin: 15px 10px 12px 10px;
-}
+  }
 
   .up-right-btn {
     margin-left: 90%;
@@ -778,6 +786,10 @@ code {
 
   .down-right-btn {
     margin-left: 90%;
+  }
+
+  .footer {
+    padding: 30px 375px 20px 611px;
   }
 
   .nav__item {
@@ -827,6 +839,10 @@ code {
 
   .down-right-btn {
     margin-left: 89%;
+  }
+
+  .footer {
+    padding: 30px 375px 20px 611px;
   }
 }
 
@@ -931,7 +947,7 @@ code {
   }
 
   .footer {
-    padding: 30px 437px 20px 608px;
+    padding: 30px 375px 20px 611px;
   }
 
   .nav__item {
@@ -980,6 +996,10 @@ code {
 
   .down-right-btn {
     margin-left: 86%;
+  }
+
+  .footer {
+    padding: 30px 267px 20px 515px;
   }
 }
 
@@ -1066,8 +1086,7 @@ code {
   }
 
   .footer {
-    padding-left: 16%;
-    padding: 30px 30px 20px 153px;
+    padding: 30px 30px 20px 297px;
   }
 
   .nav__item {
@@ -1288,7 +1307,7 @@ code {
   }
 
   .footer {
-    padding-left: 20%;
+    padding: 30px 9px 20px 176px;
   }
 
   .nav__item {
@@ -1839,5 +1858,25 @@ code {
 
   .code_area {
     margin-bottom: 0px;
+  }
+
+  .footer {
+    padding: 30px 30px 20px 0px;
+    font-size: 14px;
+    color: white;
+    background-color: #021552;
+  }
+
+  .fo-site_item {
+    margin-left: 75px;
+  }
+
+  .fo-site-intro {
+    margin-left: 40px;
+  }
+
+  .nav__item {
+    padding-left: 54px;
+    padding-top: 13px;
   }
 }
