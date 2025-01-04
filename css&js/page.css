@@ -1801,7 +1801,15 @@ code {
 
   .content-image {
     width: 100%;
-    padding: 10px 20px;
+    padding: 0px 0px;
+  }
+
+  .dl_link a {
+    font-size: 16px;
+  }
+
+  .ins_link a {
+    font-size: 15px;
   }
 
   .page-down-btn {
