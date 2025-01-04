@@ -1794,6 +1794,14 @@ code {
     margin-bottom: 0px;
   }
 
+  table.w3-table-all,
+table.ws-table-all {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
   .content-img {
     width: 100%;
     margin-left: 5px;
