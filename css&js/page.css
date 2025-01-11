@@ -1876,6 +1876,29 @@ table.ws-table-all {
     margin-bottom: 0px;
   }
 
+  .code-container {
+    padding-top: 20px;
+    padding-right: 11px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+  }
+
+  .aud {
+    width: 340px;
+    margin-left: 10px;
+  }
+
+  .frame {
+    display: none;
+  }
+
+  iframe {
+    display: none;
+  }
+
   .footer {
     padding: 30px 30px 20px 0px;
     font-size: 14px;
