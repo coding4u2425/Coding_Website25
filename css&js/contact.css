@@ -904,3 +904,37 @@ button:hover {
     margin-right: 0px;
   }
 }
+
+@media (max-width: 412px) {
+  html {
+    font-size: 50%;
+  }
+
+  .web-logo {
+    height: 47px;
+  }
+
+  .footer {
+    padding: 30px 30px 20px 0px;
+    font-size: 14px;
+    color: white;
+    background-color: #021552;
+  }
+
+  .fo-site_item {
+    margin-left: 75px;
+  }
+
+  .fo-site-intro {
+    margin-left: 40px;
+  }
+
+  .nav__item {
+    padding-left: 54px;
+    padding-top: 13px;
+  }
+
+  .social-ico-list {
+    margin-left: 40px;
+  }
+}
