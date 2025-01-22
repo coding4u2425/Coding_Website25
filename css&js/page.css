@@ -524,6 +524,16 @@ table.ws-table-all {
   justify-content: center;
 }
 
+.content-imge {
+  max-width: 90%;
+  margin-left: 40px;
+}
+
+.content-vido {
+  max-width: 80%;
+  margin-left: 16px;
+}
+
 .code-container,
 .first-line,
 .second-line,
@@ -637,6 +647,11 @@ code {
     width: 1000px;
     padding: 10px 20px;
     cursor: pointer;
+  }
+
+  .content-vido {
+    max-width: 49%;
+    margin-left: 16px;
   }
 
   table.w3-table-all,
@@ -807,6 +822,11 @@ code {
 
   .page-content {
     margin-left: 16%;
+  }
+
+  .content-vido {
+    max-width: 49%;
+    margin-left: 16px;
   }
 
   .un_list {
@@ -1122,6 +1142,11 @@ code {
     padding: 10px 20px;
   }
 
+  .content-vido {
+    max-width: 76%;
+    margin-left: 16px;
+  }
+
   .py-logo {
     width: 164px;
     margin-left: 30px;
@@ -1231,6 +1256,11 @@ code {
   .content-image {
     width: 100%;
     padding: 10px 20px;
+  }
+
+  .content-vido {
+    max-width: 76%;
+    margin-left: 16px;
   }
 
   .py-logo {
@@ -1379,6 +1409,11 @@ code {
   .page-content {
     margin-left: 22%;
     margin-right: 4%;
+  }
+
+  .content-vido {
+    max-width: 76%;
+    margin-left: 16px;
   }
 
   .un_list {
@@ -1805,7 +1840,6 @@ table.ws-table-all {
 
   .content-img {
     width: 100%;
-    margin-left: 5px;
   }
 
   .content-image {
@@ -1890,6 +1924,16 @@ table.ws-table-all {
   .aud {
     width: 340px;
     margin-left: 10px;
+  }
+
+  .content-imge {
+    max-width: 90%;
+    margin-left: 16px;
+  }
+
+  .content-vido {
+    max-width: 90%;
+    margin-left: 16px;
   }
 
   .frame {
