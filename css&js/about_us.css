@@ -858,7 +858,7 @@ button:hover {
   }
 
   .tab_mob_image {
-    width: 407px;
+    width: 395px;
     position: static;
     margin-bottom: 10px;
   }
@@ -903,6 +903,12 @@ button:hover {
 
   .web-logo {
     height: 47px;
+  }
+
+  .tab_mob_image {
+    width: 379px;
+    position: static;
+    margin-bottom: 10px;
   }
 
   .footer {
