@@ -492,6 +492,13 @@ code {
   .searchToggle.active ~ .search-field {
     margin-right: 88px;
   }
+
+  .project-imge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 }
 
 @media (max-width: 2401px) {
@@ -575,6 +582,13 @@ code {
     padding: 5px 34px;
   }
 
+  .project-imge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   .code-container {
     margin-left: 34px;
     margin-right: 34px;
@@ -617,8 +631,35 @@ code {
     left: 15%;
   }
 
+.survey-image {
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+    padding: 5px 50px;
+  }
+
+  .content p {
+    font-size: 22px;
+    padding: 5px 50px;
+  }
+
+  .content h3 {
+    padding: 8px 50px;
+  }
+
+  .project-imge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
   .code-container {
-    margin-left: 34px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .output_images {
@@ -639,26 +680,26 @@ code {
   
   .survey-image {
     width: 100%;
-    padding: 20px;
+    padding: 20px 34px 20px 34px;
   }
 
   .content h2 {
     font-size: 28px;
-    padding: 5px 20px;
+    padding: 5px 36px;
   }
 
   .content p {
     font-size: 22px;
-    padding: 5px 20px;
+    padding: 5px 36px;
   }
 
   .code-container {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 36px;
+    margin-right: 36px;
   }
 
   .content h3 {
-    padding: 8px 20px;
+    padding: 8px 36px;
   }
 
   .output_images {
@@ -686,6 +727,30 @@ code {
   #navbar {
     position: relative;
     left: 4%;
+  }
+
+  .survey-image {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+    padding: 5px 20px;
+  }
+
+  .content p {
+    font-size: 22px;
+    padding: 5px 20px;
+  }
+
+  .code-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .content h3 {
+    padding: 8px 20px;
   }
 
   .footer {
@@ -992,7 +1057,7 @@ code {
   }
 
   .center-text {
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .center-text h2 {
@@ -1061,9 +1126,31 @@ code {
     padding-right: 8px;
     padding-bottom: 20px;
     padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     overflow-y: auto;
+  }
+
+  .content h2 {
+    font-size: 24px;
+    /* padding: 5px 36px; */
+  }
+
+  .content p {
+    font-size: 18px;
+    /* padding: 5px 36px; */
+  }
+
+  .content h3 {
+    font-size: 18px;
+    /* padding: 8px 36px; */
+  }
+
+  .project-imge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 77%;
   }
 
   .footer {
