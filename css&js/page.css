@@ -623,7 +623,7 @@ code {
 @media (max-width: 2560px) {
   #navbar {
     position: relative;
-    left: 31%;
+    left: 33%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -708,7 +708,7 @@ code {
 @media (max-width: 2401px) {
   #navbar {
     position: relative;
-    left: 30%;
+    left: 32%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -817,7 +817,7 @@ code {
 @media (max-width: 2133.33px) {
   #navbar {
     position: relative;
-    left: 28%;
+    left: 29%;
   }
 
   .page-content {
@@ -870,7 +870,7 @@ code {
 @media (max-width: 1920px) {
   #navbar {
     position: relative;
-    left: 25%;
+    left: 27%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -979,7 +979,7 @@ code {
 @media (max-width: 1745.45px) {
   #navbar {
     position: relative;
-    left: 23%;
+    left: 25%;
   }
 
   .page-content {
@@ -1027,7 +1027,7 @@ code {
 @media (max-width: 1536px) {
   #navbar {
     position: relative;
-    left: 19%;
+    left: 22%;
   }
 
   .py-logo {
@@ -1119,7 +1119,7 @@ code {
 @media (max-width: 1365.33px) {
   #navbar {
     position: relative;
-    left: 15%;
+    left: 18%;
   }
 
   #leftmenu {
@@ -1229,7 +1229,7 @@ code {
 @media (max-width: 1280px) {
   #navbar {
     position: relative;
-    left: 13%;
+    left: 16%;
   }
 
   #leftmenu {
@@ -1350,7 +1350,7 @@ code {
 @media (max-width: 1137.78px) {
   #navbar {
     position: relative;
-    left: 8%;
+    left: 12%;
   }
 
   .page-up-btn {
@@ -1395,7 +1395,7 @@ code {
 @media (max-width: 1024px) {
   #navbar {
     position: relative;
-    left: 4%;
+    left: 8%;
   }
 
   .page-up-btn {
@@ -1445,7 +1445,7 @@ code {
 @media (max-width: 930.91px) {
   #navbar {
     position: relative;
-    left: 0%;
+    left: 4%;
   }
 
   .page-up-btn {
