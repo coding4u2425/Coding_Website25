@@ -143,7 +143,7 @@ button:hover {
 }
 
 .searchBox {
-  padding-top: 0px;
+  padding-top: 3px;
 }
 
 .searchBox .search-field {
@@ -401,7 +401,7 @@ button:hover {
 @media (max-width: 2560px) {
   #navbar {
     position: relative;
-    left: 31%;
+    left: 33%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -423,7 +423,7 @@ button:hover {
 @media (max-width: 2400px) {
   #navbar {
     position: relative;
-    left: 30%;
+    left: 32%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -449,7 +449,7 @@ button:hover {
 @media (max-width: 2133.33px) {
   #navbar {
     position: relative;
-    left: 28%;
+    left: 29%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -464,7 +464,7 @@ button:hover {
 @media (max-width: 1920px) {
   #navbar {
     position: relative;
-    left: 25%;
+    left: 27%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -491,7 +491,7 @@ button:hover {
 @media (max-width: 1745.45px) {
   #navbar {
     position: relative;
-    left: 23%;
+    left: 25%;
   }
 
   .searchToggle.active ~ .search-field {
@@ -507,7 +507,7 @@ button:hover {
 @media (max-width: 1536px) {
   #navbar {
     position: relative;
-    left: 19%;
+    left: 22%;
   }
   
   .center-text {
@@ -530,7 +530,7 @@ button:hover {
 @media (max-width: 1365.33px) {
   #navbar {
     position: relative;
-    left: 15%;
+    left: 18%;
   }
 
   .center-text {
@@ -553,7 +553,7 @@ button:hover {
 @media (max-width: 1280px) {
   #navbar {
     position: relative;
-    left: 13%;
+    left: 16%;
   }
 
   .center-text {
@@ -576,7 +576,7 @@ button:hover {
 @media (max-width: 1137.78px) {
   #navbar {
     position: relative;
-    left: 8%;
+    left: 12%;
   }
 
   .footer {
@@ -588,7 +588,7 @@ button:hover {
 @media (max-width: 1024px) {
   #navbar {
     position: relative;
-    left: 4%;
+    left: 8%;
   }
   
   .footer {
@@ -600,7 +600,7 @@ button:hover {
 @media (max-width: 930.91px) {
   #navbar {
     position: relative;
-    left: 0%;
+    left: 4%;
   }
 
   .center-text {
